@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: bisque;
+}
+
+.subtitle {
+  text-align: center;
+  background-color: rgb(238, 124, 124);
+}
+
+.recipes {
+  list-style: square;
+  list-style-position: inside;
+  display: inline-block;
+  text-align: start;
+}
+
+.container {
+  text-align: center;
+}
