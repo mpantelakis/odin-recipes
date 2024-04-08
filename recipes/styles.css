@@ -1,3 +1,7 @@
+body {
+  background-color: bisque;
+}
+
 h1 {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
@@ -28,32 +32,19 @@ h3 {
   text-wrap: balance;
 }
 
-.container {
+.ingredients-container {
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
-.ingredients1 {
+.ingredients-list {
   list-style: square;
   list-style-position: inside;
-  display: inline-block;
   text-align: start;
-  padding-right: 30px;
-}
-
-.ingredients2 {
-  list-style: square;
-  list-style-position: inside;
   display: inline-block;
-  text-align: start;
-  padding-left: 80px;
-}
-
-.ingredients3 {
-  list-style: square;
-  list-style-position: inside;
-  display: inline-block;
-  text-align: start;
-  padding-left: 280px;
+  margin: 0;
+  padding: 0;
 }
 
 .instructions {
