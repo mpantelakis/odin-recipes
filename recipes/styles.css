@@ -50,3 +50,9 @@ h3 {
 .instructions {
   text-align: center;
 }
+
+.instructions-list {
+  display: inline-block;
+  list-style-position: inside;
+  text-align: start;
+}
